@@ -1,0 +1,246 @@
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe Ui', serif;
+}
+:root
+{
+    --mint-green: #42C3AF;
+    --bluish-white-:hsl(210, 46%, 95%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(0, 0%, 84%);
+}
+body
+{
+    background-color: var(--grayish-blue);
+}
+.container
+{
+    background-color: var(--grayish-blue);
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1150px;
+    display: grid;
+    grid-gap: 30px;
+    font-weight: 600;
+}
+
+.card
+{
+    display: flex;
+    background-color: var(--off-white);
+}
+.card-1 
+{
+    justify-content:space-between;
+    height: 20vh;
+}
+
+.card-1 .submit button
+{
+    margin-top: 70px;
+    color: var(--off-white);
+    border: 0px;
+    margin-left: 80px;
+    margin-right: 30px;
+    align-self: flex-end;
+    background-color: #42C3AF;
+    width: 60px;
+    height: 30px;
+}
+.card-1 .survey
+{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+.card-1 .survey header
+{
+    color: #42C3AF;
+}
+.card-1 .survey p
+{
+    font-weight: 600;
+}
+.card-1 .survey h2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-1 .details
+{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+span
+{
+    font-size: 12px;
+    font-weight: 800;
+    opacity: 0.5;
+}
+ h2
+{
+    font-size: 16px;
+}
+p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+.card-1 img
+{
+    padding: 20px;
+}
+
+
+
+
+.card-2 
+{
+    justify-content:space-between;
+    height: 30vh;
+}
+
+.card-2 .submit button
+{
+    margin-top: 140px;
+    margin-left: 80px;
+    align-self: flex-end;
+    background-color: #42C3AF;
+    border: 0px;
+    color:var(--off-white);
+    width: 70px;
+    height: 35px;
+}
+.card-2 .survey
+{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.card-2 .survey header
+{
+    color: #42C3AF;
+}
+.card-2 .survey p
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-2 .survey h2
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-2 .details
+{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+
+.card-3 
+{
+    justify-content:space-between;
+    height: 20vh;
+}
+
+.card-3 .submit button
+{
+    margin-top: 70px;
+    margin-left: 80px;
+    align-self: flex-end;
+    background-color: #42C3AF;
+    border: 0px;
+    color:var(--off-white);
+    width: 60px;
+    height: 30px;
+}
+.card-3 .survey
+{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.card-3 .survey header
+{
+    color: #42C3AF;
+}
+.card-3 .survey p
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-3 .survey h2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-3 .details
+{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.card-3 img
+{
+   display: none;
+}
+
+
+
+.card-4 
+{
+    justify-content:space-between;
+    height: 30vh;
+}
+
+.card-4 .submit button
+{
+    margin-top: 140px;
+    margin-left: 80px;
+    align-self: flex-end;
+    background-color: #42C3AF;
+    border: 0px;
+    color:var(--off-white);
+    width: 70px;
+    height: 35px;
+}
+.card-4 .survey
+{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.card-4 .survey header
+{
+    color: #42C3AF;
+}
+.card-4 .survey p
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-4 .survey h2
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-4 .details
+{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.card-4 img
+{
+    display: none;
+}
